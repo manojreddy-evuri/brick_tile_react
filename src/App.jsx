@@ -1,35 +1,53 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import "./App.css";
+import ProductCard from "./components/ProductCard";
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+    return (
+        <div>
+            <header className="header">
+                <h1>Brick & Tile Manufacturing</h1>
+                <p>Quality Baked Clay Products for Construction</p>
+            </header>
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+            <section id="about" className="section">
+                <h2>About Us</h2>
+                <p>
+                    We specialize in manufacturing high-quality bricks, tiles, and other
+                    construction products made from baked clay.
+                </p>
+            </section>
 
-export default App
+            <section id="products" className="section">
+                <h2>Our Products</h2>
+                <div className="product-list">
+                    <ProductCard imgUrl="https://source.unsplash.com/400x300/?bricks" title="Bricks" description="Durable and fire-resistant bricks for strong construction." />
+                    <ProductCard imgUrl="https://source.unsplash.com/400x300/?tiles" title="Tiles" description="Beautiful clay tiles for floors, walls, and rooftops." />
+                    <ProductCard imgUrl="https://source.unsplash.com/400x300/?roof-tiles" title="Other Clay Products" description="Custom clay products for construction and decoration." />
+                </div>
+            </section>
+
+            <section id="gallery" className="section">
+                <h2>Gallery</h2>
+                <div className="gallery-grid">
+                    <img src="https://source.unsplash.com/400x300/?construction-bricks" alt="Brick Construction" />
+                    <img src="https://source.unsplash.com/400x300/?tile-flooring" alt="Tile Flooring" />
+                    <img src="https://source.unsplash.com/400x300/?clay-bricks" alt="Clay Bricks in a Wall" />
+                </div>
+            </section>
+
+            <section id="contact" className="section">
+                <h2>Contact Us</h2>
+                <p><strong>Email:</strong> info@bricktilecompany.com</p>
+                <p><strong>Phone:</strong> +123 456 7890</p>
+                <p><strong>Location:</strong> 123 Clay Street, Brick City</p>
+            </section>
+
+            <footer className="footer">
+                <p>&copy; 2025 Brick & Tile Manufacturing. All Rights Reserved.</p>
+            </footer>
+        </div>
+    );
+};
+
+export default App;
