@@ -6,7 +6,7 @@ const App = () => {
     return (
         <div>
             <header className="header">
-                <h1>Brick & Tile Manufacturing</h1>
+                <h1>NVK SERVICES LIMITED Brick & Tile Manufacturing</h1>
                 <p>Quality Baked Clay Products for Construction</p>
             </header>
 
@@ -21,18 +21,18 @@ const App = () => {
             <section id="products" className="section">
                 <h2>Our Products</h2>
                 <div className="product-list">
-                    <ProductCard imgUrl="https://source.unsplash.com/400x300/?bricks" title="Bricks" description="Durable and fire-resistant bricks for strong construction." />
-                    <ProductCard imgUrl="https://source.unsplash.com/400x300/?tiles" title="Tiles" description="Beautiful clay tiles for floors, walls, and rooftops." />
-                    <ProductCard imgUrl="https://source.unsplash.com/400x300/?roof-tiles" title="Other Clay Products" description="Custom clay products for construction and decoration." />
+                    <ProductCard imgUrl="src/assets/bricks-img.png" title="Bricks" description="Durable and fire-resistant bricks for strong construction." />
+                    <ProductCard imgUrl="src/assets/tiles-img.png" title="Tiles" description="Beautiful clay tiles for floors, walls, and rooftops." />
+                    <ProductCard imgUrl="src/assets/clayProducts-img.png" title="Other Clay Products" description="Custom clay products for construction and decoration." />
                 </div>
             </section>
 
             <section id="gallery" className="section">
                 <h2>Gallery</h2>
                 <div className="gallery-grid">
-                    <img src="https://source.unsplash.com/400x300/?construction-bricks" alt="Brick Construction" />
-                    <img src="https://source.unsplash.com/400x300/?tile-flooring" alt="Tile Flooring" />
-                    <img src="https://source.unsplash.com/400x300/?clay-bricks" alt="Clay Bricks in a Wall" />
+                    <img src="src/assets/brickConstruction-img.png" alt="Brick Construction" />
+                    <img src="src/assets/tileflooring-img.png" alt="Tile Flooring" />
+                    <img src="src/assets/clayBricks-img.png" alt="Clay Bricks in a Wall" />
                 </div>
             </section>
 
