@@ -21,18 +21,18 @@ const App = () => {
             <section id="products" className="section">
                 <h2>Our Products</h2>
                 <div className="product-list">
-                    <ProductCard imgUrl="src/assets/bricks-img.png" title="Bricks" description="Durable and fire-resistant bricks for strong construction." />
-                    <ProductCard imgUrl="src/assets/tiles-img.png" title="Tiles" description="Beautiful clay tiles for floors, walls, and rooftops." />
-                    <ProductCard imgUrl="src/assets/clayProducts-img.png" title="Other Clay Products" description="Custom clay products for construction and decoration." />
+                    <ProductCard imgUrl="public/images/brickConstruction-img.png" title="Bricks" description="Durable and fire-resistant bricks for strong construction." />
+                    <ProductCard imgUrl="public/images/tiles-img.png" title="Tiles" description="Beautiful clay tiles for floors, walls, and rooftops." />
+                    <ProductCard imgUrl="public/images/clayProducts-img.png" title="Other Clay Products" description="Custom clay products for construction and decoration." />
                 </div>
             </section>
 
             <section id="gallery" className="section">
                 <h2>Gallery</h2>
                 <div className="gallery-grid">
-                    <img src="src/assets/brickConstruction-img.png" alt="Brick Construction" />
-                    <img src="src/assets/tileflooring-img.png" alt="Tile Flooring" />
-                    <img src="src/assets/clayBricks-img.png" alt="Clay Bricks in a Wall" />
+                    <img src="public/images/brickConstruction-img.png" alt="Brick Construction" />
+                    <img src="public/images/tileflooring-img.png" alt="Tile Flooring" />
+                    <img src="public/images/clayBricks-img.png" alt="Clay Bricks in a Wall" />
                 </div>
             </section>
 
