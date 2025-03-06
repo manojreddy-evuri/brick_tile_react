@@ -38,9 +38,9 @@ const App = () => {
 
             <section id="contact" className="section">
                 <h2>Contact Us</h2>
-                <p><strong>Email:</strong> info@bricktilecompany.com</p>
-                <p><strong>Phone:</strong> +123 456 7890</p>
-                <p><strong>Location:</strong> 123 Clay Street, Brick City</p>
+                <p><strong>Email:</strong> maxims54jigs@icloud.com</p>
+                <p><strong>Phone:</strong>+447435371832</p>
+                <p><strong>Location:</strong>28 Wilford Crescent East, Nottingham, England, NG22EA</p>
             </section>
 
             <footer className="footer">
